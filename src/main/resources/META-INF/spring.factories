@@ -1,0 +1,4 @@
+# 注册自定义的FailureAnalyzer,springboot启动的时候会自动装配spring.factories,将组件加入到IOC容器中
+# 值换行时需要加上\
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+com.example.springbootfeatures.config.StartupExceptionFailureAnalyzer

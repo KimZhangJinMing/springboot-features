@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+# springboot项目启动时是否显示日志信息，默认值是true
+spring:
+  main:
+    log-startup-info: true
+
+# 设置日志级别，参数是一个map，可以设置不同包不同的日志级别，默认值是INFO
+logging:
+  level:
+    root: INFO
+    # 查看conditions reports可以将以下日志级别设置为DEBUG,或是设置更粗粒度的org.springframework.boot: DEBUG
+#    org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener: DEBUG
+
+
