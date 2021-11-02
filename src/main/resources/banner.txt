@@ -1,0 +1,16 @@
+${AnsiColor.BRIGHT_CYAN}
+ ___
+(   )         .-.
+ | |   ___   ( __)  ___ .-. .-.
+ | |  (   )  (''") (   )   '   \
+ | |  ' /     | |   |  .-.  .-. ;
+ | |,' /      | |   | |  | |  | |
+ | .  '.      | |   | |  | |  | |
+ | | `. \     | |   | |  | |  | |
+ | |   \ \    | |   | |  | |  | |
+ | |    \ .   | |   | |  | |  | |
+(___ ) (___) (___) (___)(___)(___)
+${AnsiColor.GREEN}
+application title: ${application.title : Springboot-features}
+application version: ${application.formatted-version : v1.0}
+springboot version:  ${spring-boot.formatted-version}

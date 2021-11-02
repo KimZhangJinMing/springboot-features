@@ -2,3 +2,6 @@
 # 值换行时需要加上\
 org.springframework.boot.diagnostics.FailureAnalyzer=\
 com.example.springbootfeatures.config.StartupExceptionFailureAnalyzer
+# 将自定义的yml｜yaml文件加入到Environment中,以便可以注解使用@Value注解直接注入使用,无需再使用@PropertySource
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.example.springbootfeatures.config.YamlEnvironmentPostProcessor
