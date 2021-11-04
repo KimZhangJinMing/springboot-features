@@ -68,3 +68,11 @@ public static void main(String[] args) {
 }
 ```
 
+7.@ConfigurationProperties和@Value的区别：
+
+|            | @ConfigurationProperties                                     | @Value |
+| ---------- | ------------------------------------------------------------ | ------ |
+| 宽松绑定   | 支持。比如配置文件中是item-pirce,在实体类中的属性可以是itemPrice. 但是@Value是不支持宽松绑定的。 | 不支持 |
+| SPEL表达式 | 不支持                                                       | 支持   |
+
+8.
