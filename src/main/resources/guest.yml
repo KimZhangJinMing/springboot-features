@@ -6,3 +6,6 @@ guest:
     - Js
     - Python
   item-price: 90
+  security:
+    username: kim
+    password:
