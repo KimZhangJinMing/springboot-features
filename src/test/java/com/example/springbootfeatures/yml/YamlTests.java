@@ -74,6 +74,7 @@ public class YamlTests {
     public void sample4() {
         System.out.println(guest);
         System.out.println(environment.getProperty("guest.name"));
+        System.out.println(environment.getProperty("key"));
         System.out.println(name);
     }
 }

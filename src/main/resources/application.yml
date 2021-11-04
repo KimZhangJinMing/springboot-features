@@ -15,7 +15,8 @@ logging:
     # 查看conditions reports可以将以下日志级别设置为DEBUG,或是设置更粗粒度的org.springframework.boot: DEBUG
 #    org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener: DEBUG
 
-
+# 自定义的yaml文件名,多个文件名称使用;分割
 customized:
   yaml:
-    resources: guest.yml
+    resources: guest.yml;other.yml
+

@@ -16,8 +16,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 //@PropertySource(value = "classpath:/guest.properties",name = "guest",encoding = "utf-8",factory = CustomizedPropertySourceFactory.class)
-@ConfigurationProperties(prefix = "guest")
-@Component
+//@ConfigurationProperties(prefix = "guest")
+//@Component
 public class Guest {
     private String name;
     private int age;
