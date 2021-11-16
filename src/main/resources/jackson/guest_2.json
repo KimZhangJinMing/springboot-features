@@ -1,0 +1,10 @@
+[{
+  "name": "Kim",
+  "age": 18,
+  "skills": ["java","js","python"],
+  "itemPrice": 90,
+  "security": {
+    "username": "kim",
+    "password": "123"
+  }
+}]
